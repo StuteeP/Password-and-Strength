@@ -1,0 +1,122 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leftside,.rightside{
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    background-color: #3c1c4b;
+    color: #FAF9F6;
+}
+.rightside{
+    background-color: #f6b3c4;
+}
+
+.sideone {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    
+}
+.purple{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+.purple input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.sideone h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.sideone h1 span{
+    border-bottom: 4px solid #f6b3c4;
+    padding-bottom: 5px;
+}
+#copyimg {
+    height: 60px;
+    cursor: pointer;
+}
+.sideone button{
+    border: 0;
+    outline: 0;
+    background: #f6b3c4;
+    color: #3c1c4b;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar1{
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+    color: #f6b3c4;
+    background-color: #3c1c4b;
+    
+}
+.navbar2 {
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+    color: #3c1c4b;
+    background-color:#f6b3c4;;
+
+}
+.sidetwo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.box {
+    /* border: 0;
+    outline: 0; */
+    width: 600px;
+    max-width: 90%;
+    /* position: relative;
+    font-size: 30px;
+    align-items: center; */
+}
+.box input{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    border: 6px solid #3c1c4b;
+    outline: none;
+    background: transparent;
+    
+}
+
+
+#msg{
+    padding-top: 10px;
+    bottom: -30px;
+    color:#3c1c4b;
+    font-size: 50px;
+    text-align: justify;
+    display: none;
+    
+
+
+}
